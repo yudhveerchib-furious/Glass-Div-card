@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(135deg, #ee2121, #c4630e);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    width: 350px;
+    height: 150px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transform: translateZ(5px);
+}
+.glass-card button{
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2);
+    
+}
+.container:hover{
+    backdrop-filter: blur(10px);
+    transition: 0.5s;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+    transform: translateZ(20px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
